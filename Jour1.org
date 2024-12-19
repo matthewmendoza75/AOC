@@ -36,3 +36,34 @@ Enfin, le plus grand nombre de la liste de gauche est 4, tandis que le plus gran
 Pour trouver la distance totale entre la liste de gauche et la liste de droite, additionnez les distances entre toutes les paires que vous avez trouvées. Dans l'exemple ci-dessus, cela correspond à 2 + 1 + 0 + 1 + 2 + 5, soit une distance totale de 11 !
 
 Vos listes de gauche et de droite contiennent de nombreux identifiants d'emplacement. Quelle est la distance totale entre vos listes ?
+
+-- Deuxième partie ---
+Votre analyse n'a fait que confirmer ce que tout le monde craignait : les deux listes d'identifiants de lieux sont en effet très différentes.
+
+Ou le sont-elles ?
+
+Les historiens ne parviennent pas à se mettre d'accord sur le groupe qui a commis les erreurs ou sur la façon de lire la plupart de l'écriture manuscrite du chef, mais dans le tumulte, vous remarquez un détail intéressant : de nombreux identifiants de lieux apparaissent dans les deux listes ! Peut-être que les autres numéros ne sont pas du tout des identifiants de lieux mais plutôt une écriture manuscrite mal interprétée.
+
+Cette fois, vous devrez déterminer exactement à quelle fréquence chaque numéro de la liste de gauche apparaît dans la liste de droite. Calculez un score de similarité total en additionnant chaque numéro de la liste de gauche après l'avoir multiplié par le nombre de fois que ce numéro apparaît dans la liste de droite.
+
+Voici à nouveau les mêmes exemples de listes :
+
+3 4
+4 3
+2 5
+1 3
+3 9
+3 3
+Pour ces exemples de listes, voici le processus de recherche du score de similarité :
+
+Le premier nombre de la liste de gauche est 3. Il apparaît trois fois dans la liste de droite, donc le score de similarité augmente de 3 * 3 = 9.
+Le deuxième nombre de la liste de gauche est 4. Il apparaît une fois dans la liste de droite, donc le score de similarité augmente de 4 * 1 = 4.
+Le troisième nombre de la liste de gauche est 2. Il n'apparaît pas dans la liste de droite, donc le score de similarité n'augmente pas (2 * 0 = 0).
+Le quatrième nombre, 1, n'apparaît pas non plus dans la liste de droite.
+Le cinquième nombre, 3, apparaît trois fois dans la liste de droite ; le score de similarité augmente de 9.
+Le dernier nombre, 3, apparaît trois fois dans la liste de droite ; le score de similarité augmente à nouveau de 9.
+Ainsi, pour ces exemples de listes, le score de similarité à la fin de ce processus est de 31 (9 + 4 + 0 + 0 + 9 + 9).
+
+Considérez à nouveau vos listes de gauche et de droite. Quel est leur score de similarité ?
+
+

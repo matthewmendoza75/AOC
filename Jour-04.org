@@ -36,4 +36,32 @@ S.S.S.S.SS
 .X.X.XMASX
 Regardez la recherche de mots du petit lutin. Combien de fois XMAS apparaît-il ?
 
-Réponse : 
+Réponse : 2297
+
+--- Deuxième partie ---
+L'elfe vous regarde d'un air interrogateur. Avez-vous mal compris la tâche ?
+
+En cherchant les instructions, vous retournez la recherche de mots pour découvrir qu'il ne s'agit pas en fait d'un puzzle de Noël ; c'est un puzzle de Noël dans lequel vous êtes censé trouver deux MAS en forme de X. Une façon d'y parvenir est la suivante :
+
+M.S
+.A.
+M.S
+Les caractères non pertinents ont de nouveau été remplacés par . dans le diagramme ci-dessus. Dans le X, chaque MAS peut être écrit en avant ou en arrière.
+
+Voici le même exemple que précédemment, mais cette fois, tous les X-MAS ont été conservés :
+
+.M.S......
+..A..MSMS.
+.M.S.MAA..
+..A.ASMSM.
+.M.S.M....
+..........
+S.S.S.S.S.
+.A.A.A.A..
+M.M.M.M.M.
+..........
+Dans cet exemple, un X-MAS apparaît 9 fois.
+
+Retournez la recherche de mots des instructions sur le côté recherche de mots et réessayez. Combien de fois un X-MAS apparaît-il ?
+
+Réponse : 1745

@@ -37,7 +37,7 @@ Pour trouver la distance totale entre la liste de gauche et la liste de droite, 
 
 Vos listes de gauche et de droite contiennent de nombreux identifiants d'emplacement. Quelle est la distance totale entre vos listes ?
 
-Réponse: 3246517
+Réponse: 1970720
 
 -- Deuxième partie ---
 Votre analyse n'a fait que confirmer ce que tout le monde craignait : les deux listes d'identifiants de lieux sont en effet très différentes.
@@ -68,6 +68,6 @@ Ainsi, pour ces exemples de listes, le score de similarité à la fin de ce proc
 
 Considérez à nouveau vos listes de gauche et de droite. Quel est leur score de similarité ?
 
-Réponse: 29379307
+Réponse: 17191599
 
 

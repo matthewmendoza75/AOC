@@ -60,4 +60,58 @@ Cet exemple plus grand comporte 9 débuts de sentier. En considérant les points
 
 Le renne porte joyeusement un rapporteur et l'ajoute à la pile. Quelle est la somme des scores de tous les points de départ des sentiers sur votre carte topographique ?
 
-Réponse :
+Réponse : 754
+
+--- Deuxième partie ---
+Le renne passe quelques minutes à examiner votre carte de sentiers de randonnée avant de se rendre compte de quelque chose, de disparaître pendant quelques minutes et de revenir enfin avec un autre morceau de papier légèrement carbonisé.
+
+Le papier décrit une deuxième façon de mesurer un début de sentier, appelée sa cote. La cote d'un début de sentier est le nombre de sentiers de randonnée distincts qui commencent à ce début de sentier. Par exemple :
+
+.....0.
+..4321.
+..5..2.
+..6543.
+..7..4.
+..8765.
+..9....
+La carte ci-dessus n'a qu'un seul début de sentier ; sa cote est de 3 car il y a exactement trois sentiers de randonnée distincts qui commencent à cet endroit :
+
+.....0. .....0. .....0.
+..4321. .....1. .....1.
+..5.... .....2. .....2.
+..6.... ..6543. .....3.
+..7.... ..7.... .....4.
+..8.... ..8.... ..8765.
+..9.... ..9.... ..9....
+Voici une carte contenant un seul point de départ de sentier avec une cote de 13 :
+
+..90..9
+...1.98
+...2..7
+6543456
+765.987
+876....
+987....
+Cette carte contient un seul point de départ de sentier avec une cote de 227 (car il y a 121 sentiers de randonnée distincts qui mènent au 9 sur le bord droit et 106 qui mènent au 9 sur le bord inférieur) :
+
+012345
+123456
+234567
+345678
+4.6789
+56789.
+Voici l'exemple le plus grand de avant :
+
+89010123
+78121874
+87430965
+96549874
+45678903
+32019012
+01329801
+10456732
+En considérant les points de départ des sentiers dans l'ordre de lecture, ils ont des cotes de 20, 24, 10, 4, 1, 4, 5, 8 et 5. La somme de toutes les cotes des points de départ des sentiers dans cet exemple de carte topographique plus grand est de 81.
+
+Vous ne savez pas comment, mais le renne semble avoir fabriqué de minuscules drapeaux à partir de cure-dents et de morceaux de papier et les utilise pour marquer les points de départ des sentiers sur votre carte topographique. Quelle est la somme des cotes de tous les points de départ des sentiers ?
+
+Réponse : 1609

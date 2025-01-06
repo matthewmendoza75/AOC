@@ -73,4 +73,42 @@ Le premier exemple comporte des antennes avec deux fréquences différentes, don
 
 Calculez l'impact du signal. Combien d'emplacements uniques dans les limites de la carte contiennent un antinœud ?
 
-Réponse : 
+Réponse : 313
+
+--- Deuxième partie ---
+En regardant par-dessus votre épaule pendant que vous travaillez, l'un des historiens vous demande si vous avez pris en compte les effets des harmoniques résonnantes dans vos calculs.
+
+Oups !
+
+Après avoir mis à jour votre modèle, il s'avère qu'un antinœud se produit à n'importe quelle position de la grille exactement en ligne avec au moins deux antennes de la même fréquence, quelle que soit la distance. Cela signifie que certains des nouveaux antinœuds se produiront à la position de chaque antenne (à moins que cette antenne ne soit la seule de sa fréquence).
+
+Ainsi, ces trois antennes de fréquence T créent maintenant de nombreux antinœuds :
+
+T....#....
+...T......
+.T....#...
+.........#
+..#.......
+..........
+...#......
+..........
+....#.....
+..........
+En fait, les trois antennes de fréquence T sont toutes exactement en ligne avec deux antennes, elles sont donc toutes aussi des antinœuds ! Cela porte le nombre total d'antinœuds dans l'exemple ci-dessus à 9.
+
+L'exemple original comporte désormais 34 antinœuds, y compris les antinœuds qui apparaissent sur chaque antenne :
+
+##....#....#
+.#.#....0...
+..#.#0....#.
+..##...0........0....#..
+.#...#A....#
+...#..#.....
+#....#.#....
+..#.....A...
+....#....A..
+.#........#.
+...#......##
+Calculez l'impact du signal à l'aide de ce modèle mis à jour. Combien d'emplacements uniques dans les limites de la carte contiennent un antinœud ?
+
+Réponse : 1064

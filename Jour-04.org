@@ -1,0 +1,39 @@
+--- Jour 4 : Recherche de Cérès ---
+"On dirait que le Chef n'est pas là. Au suivant !" L'un des historiens sort un appareil et appuie sur le seul bouton qui se trouve dessus. Après un bref flash, vous reconnaissez l'intérieur de la station de surveillance de Cérès !
+
+Alors que la recherche du Chef continue, une petite elfe qui vit sur la station tire sur votre chemise ; elle aimerait savoir si vous pourriez l'aider avec sa recherche de mots (votre saisie de puzzle). Elle n'a qu'à trouver un mot : XMAS.
+
+Cette recherche de mots permet aux mots d'être horizontaux, verticaux, en diagonale, écrits à l'envers ou même superposés à d'autres mots. C'est un peu inhabituel, cependant, car vous n'avez pas seulement besoin de trouver une occurrence de XMAS - vous devez les trouver toutes. Voici quelques façons dont XMAS peut apparaître, où les caractères non pertinents ont été remplacés par .:
+
+..X...
+.SAMX.
+.A..A.
+XMAS.S
+.X....
+La recherche de mots réelle sera à la place pleine de lettres. Par exemple :
+
+MMMSXXMASM
+MSAMXMSMSA
+AMXSXMAAMM
+MSAMASMSMX
+XMASAMXAMM
+XXAMMXXAMA
+SMSMSASXSS
+SAXAMASAAA
+MAMMMXMMMM
+MXMXAXMASX
+Dans cette recherche de mots, XMAS apparaît 18 fois au total ; voici la même recherche de mots, mais où les lettres qui ne sont pas impliquées dans XMAS ont été remplacées par .:
+
+....XXMAS.
+.SAMXMS...
+...S..A...
+..A.A.MS.X
+XMASAMX.MM
+X.....XA.A
+S.S.S.S.SS
+.A.A.A.A.A
+..M.M.M.MM
+.X.X.XMASX
+Regardez la recherche de mots du petit lutin. Combien de fois XMAS apparaît-il ?
+
+Réponse : 

@@ -47,7 +47,7 @@ Donc, dans cet exemple, 2 rapports sont sûrs.
 
 Analysez les données inhabituelles des ingénieurs. Combien de rapports sont sûrs?
 
-*** Réponse: ~230~
+*** Réponse: ~686~
 
 ** Deuxième partie
 Les ingénieurs sont surpris par le faible nombre de rapports sûrs jusqu'à ce qu'ils réalisent qu'ils ont
@@ -76,4 +76,4 @@ Grâce à l'amortisseur de problèmes, 4 rapports sont désormais sûrs!
 Mettez à jour votre analyse en gérant les situations dans lesquelles l'amortisseur de problèmes peut
 supprimer un seul niveau des rapports non sûrs. Combien de rapports sont désormais sûrs?
 
-*** Réponse: ~301~
+*** Réponse: ~717~

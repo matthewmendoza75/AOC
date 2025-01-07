@@ -1,4 +1,4 @@
---- Jour 4 : Recherche de Cérès ---
+* Jour 4 : Recherche de Cérès
 "On dirait que le Chef n'est pas là. Au suivant !" L'un des historiens sort un appareil et appuie sur le seul bouton qui se trouve dessus. Après un bref flash, vous reconnaissez l'intérieur de la station de surveillance de Cérès !
 
 Alors que la recherche du Chef continue, une petite elfe qui vit sur la station tire sur votre chemise ; elle aimerait savoir si vous pourriez l'aider avec sa recherche de mots (votre saisie de puzzle). Elle n'a qu'à trouver un mot : XMAS.
@@ -36,9 +36,9 @@ S.S.S.S.SS
 .X.X.XMASX
 Regardez la recherche de mots du petit lutin. Combien de fois XMAS apparaît-il ?
 
-Réponse : 2297
+* Réponse : ~2297~
 
---- Deuxième partie ---
+* Deuxième partie 
 L'elfe vous regarde d'un air interrogateur. Avez-vous mal compris la tâche ?
 
 En cherchant les instructions, vous retournez la recherche de mots pour découvrir qu'il ne s'agit pas en fait d'un puzzle de Noël ; c'est un puzzle de Noël dans lequel vous êtes censé trouver deux MAS en forme de X. Une façon d'y parvenir est la suivante :
@@ -64,4 +64,4 @@ Dans cet exemple, un X-MAS apparaît 9 fois.
 
 Retournez la recherche de mots des instructions sur le côté recherche de mots et réessayez. Combien de fois un X-MAS apparaît-il ?
 
-Réponse : 1745
+* Réponse : ~1745~

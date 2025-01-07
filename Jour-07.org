@@ -25,8 +25,28 @@ Seules trois des équations ci-dessus peuvent être rendues vraies en insérant 
 190 : 10 19 n'a qu'une seule position qui accepte un opérateur : entre 10 et 19. Choisir + donnerait 29, mais choisir * donnerait la valeur de test (10 * 19 = 190).
 3267 : 81 40 27 a deux positions pour les opérateurs. Des quatre configurations possibles des opérateurs, deux font correspondre le côté droit à la valeur de test : 81 + 40 * 27 et 81 * 40 + 27 sont tous deux égaux à 3267 (lorsqu'ils sont évalués de gauche à droite) !
 292 : 11 6 16 20 peut être résolu d'une seule manière : 11 + 6 * 16 + 20.
-Les ingénieurs ont juste besoin du résultat d'étalonnage total, qui est la somme des valeurs de test des seules équations qui pourraient éventuellement être vraies. Dans l'exemple ci-dessus, la somme des valeurs de test pour les trois équations répertoriées ci-dessus est de 3749.
+Les ingénieurs ont juste besoin du résultat d'étalonnage total, qui est la somme des valeurs de test des seules équations qui pourraient éventuellement être vraies.
+Dans l'exemple ci-dessus, la somme des valeurs de test pour les trois équations répertoriées ci-dessus est de 3749.
+
+Déterminer quelles équations pourraient être vraies. Quel est leur résultat d'étalonnage total ?
+
+Réponse : 5030892084481
+
+Les ingénieurs semblent inquiets ; le résultat total de l'étalonnage que vous leur avez donné est loin d'être dans les tolérances de sécurité. C'est alors que vous repérez votre erreur : des éléphants bien cachés détiennent un troisième type d'opérateur.
+
+L'opérateur de concaténation (||) combine les chiffres de ses entrées gauche et droite en un seul nombre. Par exemple, 12 || 345 deviendrait 12345. Tous les opérateurs sont toujours évalués de gauche à droite.
+
+Maintenant, en plus des trois équations qui pourraient être rendues vraies en utilisant uniquement l'addition et la multiplication, l'exemple ci-dessus comporte trois autres équations qui peuvent être rendues vraies en insérant des opérateurs :
+
+156 : 15 6 peut être rendu vrai par une seule concaténation : 15 || 6 = 156.
+7290 : 6 8 6 15 peut être rendu vrai en utilisant 6 * 8 || 6 * 15.
+192 : 17 8 14 peut être rendu vrai en utilisant 17 || 8 + 14.
+L'addition des six valeurs de test (les trois qui pouvaient être obtenues auparavant en utilisant uniquement + et * plus les trois nouvelles qui peuvent maintenant être obtenues en utilisant également ||) produit le nouveau résultat d'étalonnage total de 11387.
+
+En utilisant vos nouvelles connaissances sur les cachettes des éléphants, déterminez quelles équations pourraient être vraies. Quel est leur résultat d'étalonnage total ?
+
+Réponse :
 
 Déterminez quelles équations pourraient être vraies. Quel est leur résultat d'étalonnage total ?
 
-Réponse :
+Réponse : 91377448644679

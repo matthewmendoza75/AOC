@@ -32,6 +32,8 @@ Déterminer quelles équations pourraient être vraies. Quel est leur résultat 
 
 Réponse : 5030892084481
 
+--- Deuxième partie ---
+
 Les ingénieurs semblent inquiets ; le résultat total de l'étalonnage que vous leur avez donné est loin d'être dans les tolérances de sécurité. C'est alors que vous repérez votre erreur : des éléphants bien cachés détiennent un troisième type d'opérateur.
 
 L'opérateur de concaténation (||) combine les chiffres de ses entrées gauche et droite en un seul nombre. Par exemple, 12 || 345 deviendrait 12345. Tous les opérateurs sont toujours évalués de gauche à droite.

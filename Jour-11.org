@@ -51,4 +51,11 @@ Dans cet exemple, après avoir cligné six fois, vous auriez 22 calculs. Après
 
 Considérez la disposition des calculs devant vous. Combien de calculs aurez-vous après avoir cligné des yeux 25 fois ?
 
-Réponse : 
+Réponse : 198089
+
+--- Deuxième partie ---
+Les historiens prennent vraiment beaucoup de temps. Pour être honnête, les couloirs infinis sont très grands.
+
+Combien de pierres auriez-vous après avoir cligné des yeux un total de 75 fois ?
+
+Réponse : 236302670835517

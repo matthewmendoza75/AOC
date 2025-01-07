@@ -1,0 +1,237 @@
+--- Jour 15 : Malheurs de l'entrepôt ---
+Vous revenez à l'intérieur de votre propre mini-sous-marin ! Chaque historien conduit son mini-sous-marin dans une direction différente ; peut-être que le chef a aussi son propre sous-marin ici quelque part ?
+
+Vous levez les yeux pour voir un vaste banc de poissons-lanternes nager devant vous. En les regardant de plus près, ils semblent assez anxieux, alors vous conduisez votre mini-sous-marin pour voir si vous pouvez les aider.
+
+Parce que les populations de poissons-lanternes augmentent rapidement, ils ont besoin de beaucoup de nourriture, et cette nourriture doit être stockée quelque part. C'est pourquoi ces poissons-lanternes ont construit des complexes d'entrepôts élaborés exploités par des robots !
+
+Ces poissons-lanternes semblent si anxieux parce qu'ils ont perdu le contrôle du robot qui exploite l'un de leurs entrepôts les plus importants ! Il est actuellement en train de se déchaîner, poussant des boîtes dans l'entrepôt sans se soucier de la logistique des poissons-lanternes ou des stratégies de gestion des stocks des poissons-lanternes.
+
+Pour l'instant, aucun des poissons-lanternes n'est assez courageux pour nager jusqu'à un robot imprévisible afin de pouvoir l'éteindre. Cependant, si vous pouviez anticiper les mouvements du robot, peut-être pourraient-ils trouver une option sûre.
+
+Les poissons-lanternes ont déjà une carte de l'entrepôt et une liste des mouvements que le robot tentera d'effectuer (votre entrée de puzzle). Le problème est que les mouvements échoueront parfois lorsque les boîtes sont déplacées, ce qui rend les mouvements réels du robot difficiles à prévoir.
+
+Par exemple :
+
+##########
+#..O..O.O#
+#......O.#
+#.OO..O.O#
+#..O@..O.#
+#O#..O...#
+#O..O..O.#
+#.OO.O.OO#
+#....O...#
+##########
+
+<vv>^<v^>v>^vv^v>v<>v^v<v<^vv<<<^><<><>>v<vvv<>^v^>^<<<><<v<<<v^vv^v>^
+vvv<<^>^v^^><<>> ><>^<<><^vv^^<>vvv<>><^^v>^>vv<>v<<<<v<^v>^<^^>>>^<v<v
+><>vv>v^v^<>><>>>><^^>vv>v<^^^>>v^v^<^^>v^^>v^<^v>v<>>v^v^<v>v^^<^^vv<
+<<v<^>>^^^^>>>v^<>vvv^><v<<<>^^^vv^<vvv>^>v<^^^^v<>^>vvvv><>>v^<<^^^^^
+^><^><>>><> ^^<<^^v>>><^<v>^<vv>>v>>>^v><>^v><<<<v>>v<v<v>vvv>^<><<>^><
+^>><>^v<><^vvv<^^<><v<<<<<><^v<<<><<<^^<v<^^^><^>>^<v^><<<^>>^v<v^v<v^
+>^>>^v>vv>^<<^v<>><<><<v<<v><>v<^vv<<<>^^v^>^^>>><<^v>>v^v><^^>>^<>vv^
+<><^^> ^^^<><vvvvv^v<v<<>^v<v>v<<^><<><<><<<^^<<<^<<>><<><^^^>^^<>^>v<>
+^^>vv<^v^v<vv>^<><v<^v>^^^>>>^^vvv^>vvv<>>>^<^>>>>>^<<^v>^vvv<>^<><<v>
+v^^>>><<^^<>>^v^<v^vv<>v^<<>^<^v^v><^<<<><<^<v><v<>vv>>v><v^<vv<>v^<<^
+Pendant que le robot (@) tente de se déplacer, s'il y a des cases (O) sur le chemin, le robot tentera également de pousser ces cases. Cependant, si cette action devait entraîner le déplacement du robot ou d'une boîte contre un mur (#), rien ne bouge à la place, y compris le robot. Les positions initiales de ces éléments sont indiquées sur la carte en haut du document que le poisson-lanterne vous a donné.
+
+Le reste du document décrit les déplacements (^ pour haut, v pour bas, < pour gauche, > pour droite) que le robot tentera d'effectuer, dans l'ordre. (Les mouvements forment une seule séquence géante ; ils sont divisés en plusieurs lignes pour faciliter le copier-coller. Les sauts de ligne dans la séquence de mouvements doivent être ignorés.)
+
+Voici un petit exemple pour commencer :
+
+########
+#..O.O.#
+##@.O..#
+#...O..#
+#.#.O..#
+#...O..#
+#......#
+########
+
+<^^>>>vv<v>>v<<
+Si le robot tentait la séquence de mouvements donnée, il pousserait les boîtes comme suit :
+
+État initial :
+########
+#..O.O.#
+##@.O..#
+#...O..#
+#.#.O..#
+#...O..#
+#......#
+########
+
+Déplacer < :
+########
+#..O.O.#
+##@.O..#
+#...O..#
+#.#.O..#
+#...O..#
+#......#
+########
+
+Déplacer ^ :
+########
+#.@O.O.#
+##..O..#
+#...O..#
+#.#.O..#
+#...O..#
+#......#
+########
+
+Déplacer ^ :
+########
+#.@O.O.#
+##..O..#
+#...O..#
+#.#.O..#
+#...O..#
+#......#
+########
+
+Déplacer > :
+########
+#..@OO.#
+##..O..#
+#...O..#
+#.#.O..#
+#...O..#
+#......#
+########
+
+Se déplacer > :
+########
+#...@OO#
+##..O..#
+#...O..#
+#.#.O..#
+#...O..#
+#......#
+########
+
+Déplacer > :
+########
+#...@OO#
+##..O..#
+#...O..#
+#.#.O..#
+#...O..#
+#......#
+########
+
+Déplacer v :
+########
+#....OO#
+##..@..#
+#...O..#
+#.#.O..#
+#...O..#
+#...O..#
+########
+
+Déplacer v :
+########
+#....OO#
+##..@..#
+#...O..#
+#.#.O..#
+#...O..#
+#...O..#
+########
+
+Se déplacer < :
+########
+#....OO#
+##.@...#
+#...O..#
+#.#.O..#
+#...O..#
+#...O..#
+########
+
+Déplacer v :
+########
+#....OO#
+##.....#
+#..@O..#
+#.#.O..#
+#...O..#
+#...O..#
+########
+
+Déplacer > :
+########
+#....OO#
+##.....#
+#...@O.#
+#.#.O..#
+#...O..#
+#...O..#
+########
+
+Déplacer > :
+########
+#....OO#
+##.....#
+#....@O#
+#.#.O..#
+#...O..#
+#...O..#
+########
+
+Se déplacer v:
+########
+#....OO#
+##.....#
+#.....O#
+#.#.O@.#
+#...O..#
+#...O..#
+########
+
+Déplacer <:
+########
+#....OO#
+##.....#
+#....O#
+#.#O@..#
+#...O..#
+#...O..#
+########
+
+Déplacer <:
+########
+#....OO#
+##.....#
+#.....O#
+#.#O@..#
+#...O..#
+#...O..#
+########
+Le plus grand exemple comporte beaucoup plus de déplacements ; une fois que le robot a terminé ces mouvements, l'entrepôt ressemblerait à ceci :
+
+##########
+#.O.O.OOO#
+#........#
+#OO......#
+#OO@.....#
+#O#.....O#
+#O.....OO#
+#O.....OO#
+#OO....OO#
+##########
+Les poissons-lanternes utilisent leur propre système de positionnement des marchandises personnalisé (GPS en abrégé) pour suivre l'emplacement des boîtes. Les coordonnées GPS d'une boîte sont égales à 100 fois sa distance par rapport au bord supérieur de la carte plus sa distance par rapport au bord gauche de la carte. (Ce processus ne s'arrête pas aux carreaux muraux ; mesurez jusqu'aux bords de la carte.)
+
+Donc, la boîte illustrée ci-dessous a une distance de 1 par rapport au bord supérieur de la carte et de 4 par rapport au bord gauche de la carte, ce qui donne une coordonnée GPS de 100 * 1 + 4 = 104.
+
+########
+#...O..
+#......
+Le poisson-lanterne aimerait connaître la somme des coordonnées GPS de toutes les boîtes une fois que le robot a fini de se déplacer. Dans le grand exemple, la somme des coordonnées GPS de toutes les boîtes est de 10092. Dans le petit exemple, la somme est de 2028.
+
+Prévoyez le mouvement du robot et des boîtes dans l'entrepôt. Une fois que le robot a fini de se déplacer, quelle est la somme des coordonnées GPS de toutes les boîtes ?
+
+Réponse : 

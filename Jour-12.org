@@ -77,4 +77,59 @@ Ainsi, son prix total est de 1930.
 
 Quel est le prix total de la clôture de toutes les régions sur votre carte ?
 
-Réponse : 
+Réponse : 1489582
+
+--- Deuxième partie ---
+Heureusement, les elfes essaient de commander tellement de clôtures qu'ils ont droit à une remise sur les lots !
+
+Avec la remise sur les lots, au lieu d'utiliser le périmètre pour calculer le prix, vous devez utiliser le nombre de côtés de chaque région. Chaque section droite de clôture compte comme un côté, quelle que soit sa longueur.
+
+Considérez à nouveau cet exemple :
+
+AAAA
+BBCD
+BBCC
+EEEC
+La région contenant les plantes de type A a 4 côtés, tout comme chacune des régions contenant les plantes de type B, D et E. Cependant, la région plus complexe contenant les plantes de type C a 8 côtés !
+
+En utilisant la nouvelle méthode de calcul du prix par région en multipliant la superficie de la région par son nombre de côtés, les régions A à E ont respectivement les prix 16, 16, 32, 4 et 12, pour un prix total de 80.
+
+Le deuxième exemple ci-dessus (plein de plantes de type X et O) aurait un prix total de 436.
+
+Voici une carte qui comprend une région en forme de E pleine de plantes de type E :
+
+EEEEE
+EXXXX
+EEEEE
+EXXXX
+EEEEE
+La région en forme de E a une superficie de 17 et 12 côtés pour un prix de 204. En incluant les deux régions pleines de plantes de type X, cette carte a un prix total de 236.
+
+Cette carte a un prix total de 368 :
+
+AAAAAA
+AAABBA
+AAABBA
+ABBAAA
+ABBAAA
+AAAAAA
+Elle comprend deux régions pleines de plantes de type B (chacune avec 4 côtés) et une seule région pleine de plantes de type A (avec 4 côtés à l'extérieur et 8 autres côtés à l'intérieur, soit un total de 12 côtés). Soyez particulièrement prudent lorsque vous comptez la clôture autour de régions comme celle remplie de plantes de type A ; en particulier, chaque section de clôture a un côté intérieur et un côté extérieur, de sorte que la clôture ne se connecte pas au milieu de la région (là où les deux régions B se touchent en diagonale). (Les elfes auraient plutôt utilisé la société Möbius Fencing Company, mais leurs conditions contractuelles étaient trop unilatérales.)
+
+Le plus grand exemple de l'exemple précédent présente désormais les prix mis à jour suivants :
+
+Une région de R plantes avec un prix de 12 * 10 = 120.
+Une région de I plantes avec un prix de 4 * 4 = 16.
+Une région de C plantes avec un prix de 14 * 22 = 308.
+Une région de F plantes avec un prix de 10 * 12 = 120.
+Une région de V plantes avec un prix de 13 * 10 = 130.
+Une région de J plantes avec un prix de 11 * 12 = 132.
+Une région de C plantes avec un prix de 1 * 4 = 4.
+Une région de E plantes avec un prix de 13 * 8 = 104.
+Une région de I plantes avec un prix de 14 * 16 = 224.
+Une région de M plantes avec un prix de 5 * 6 = 30.
+Une région de S plantes avec un prix de 3 * 6 = 18.
+En additionnant ces éléments, on obtient son nouveau prix total de 1206.
+
+Quel est le nouveau prix total de la clôture de toutes les régions de votre carte ?
+
+Réponse : 914966

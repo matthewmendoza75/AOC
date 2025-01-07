@@ -113,4 +113,11 @@ Dans cet exemple, les quadrants contiennent 1, 3, 4 et 1 robot. En multipliant c
 
 Prévoyez le mouvement des robots de votre liste dans un espace de 101 tuiles de large et 103 tuiles de haut. Quel sera le facteur de sécurité après exactement 100 secondes ?
 
+Réponse : 228421332
+
+--- Deuxième partie ---
+Pendant la pause toilettes, quelqu'un remarque que ces robots ressemblent terriblement à ceux construits et utilisés au pôle Nord. S'ils sont du même type de robots, ils devraient avoir un œuf de Pâques codé en dur : très rarement, la plupart des robots devraient s'organiser pour former une image d'arbre de Noël.
+
+Quel est le nombre minimum de secondes qui doivent s'écouler pour que les robots affichent l'œuf de Pâques ?
+
 Réponse :

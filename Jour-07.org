@@ -1,4 +1,4 @@
---- Jour 7 : Réparation du pont ---
+* Jour 7 : Réparation du pont
 Les historiens vous emmènent vers un pont de corde familier au-dessus d'une rivière au milieu d'une jungle. Le chef n'est pas de ce côté du pont, cependant ; peut-être est-il de l'autre côté ?
 
 Lorsque vous vous apprêtez à traverser le pont, vous remarquez un groupe d'ingénieurs qui essaient de le réparer. (Apparemment, il se casse assez fréquemment.) Vous ne pourrez pas traverser tant qu'il n'est pas réparé.
@@ -30,9 +30,9 @@ Dans l'exemple ci-dessus, la somme des valeurs de test pour les trois équations
 
 Déterminer quelles équations pourraient être vraies. Quel est leur résultat d'étalonnage total ?
 
-Réponse : 5030892084481
+** Réponse : ~5030892084481~
 
---- Deuxième partie ---
+* Deuxième partie 
 
 Les ingénieurs semblent inquiets ; le résultat total de l'étalonnage que vous leur avez donné est loin d'être dans les tolérances de sécurité. C'est alors que vous repérez votre erreur : des éléphants bien cachés détiennent un troisième type d'opérateur.
 
@@ -51,4 +51,4 @@ Réponse :
 
 Déterminez quelles équations pourraient être vraies. Quel est leur résultat d'étalonnage total ?
 
-Réponse : 91377448644679
+** Réponse : ~91377448644679~

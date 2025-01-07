@@ -235,3 +235,5 @@ Le poisson-lanterne aimerait connaître la somme des coordonnées GPS de toutes 
 Prévoyez le mouvement du robot et des boîtes dans l'entrepôt. Une fois que le robot a fini de se déplacer, quelle est la somme des coordonnées GPS de toutes les boîtes ?
 
 Réponse : 
+
+

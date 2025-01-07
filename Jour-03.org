@@ -1,4 +1,4 @@
--- Jour 3 : Réfléchissez-y ---
+* Jour 3 : Réfléchissez-y
 "Nos ordinateurs rencontrent des problèmes, donc je ne sais pas si nous avons des historiens en chef en stock ! Vous pouvez cependant vérifier l'entrepôt", dit le commerçant légèrement énervé du magasin de location de toboggans du pôle Nord. Les historiens sortent pour y jeter un œil.
 
 Le commerçant se tourne vers vous. "Avez-vous une chance de comprendre pourquoi nos ordinateurs rencontrent à nouveau des problèmes ?"
@@ -16,9 +16,9 @@ Seules les quatre sections mises en surbrillance sont de véritables instruction
 
 Scannez la mémoire corrompue à la recherche d'instructions mul non corrompues. Qu'obtenez-vous si vous additionnez tous les résultats des multiplications ?
 
-Réponse : 160672468
+* Réponse : ~160672468~
 
---- Deuxième partie ---
+* Deuxième partie 
 En parcourant la mémoire corrompue, vous remarquez que certaines des instructions conditionnelles sont également intactes. Si vous traitez certaines des instructions conditionnelles non corrompues dans le programme, vous pourrez peut-être obtenir un résultat encore plus précis.
 
 Vous devrez gérer deux nouvelles instructions :
@@ -36,4 +36,4 @@ Cette fois, la somme des résultats est de 48 (2*4 + 8*5).
 
 Gérez les nouvelles instructions ; qu'obtenez-vous si vous additionnez tous les résultats des seules multiplications activées ?
 
-Réponse : 84893551
+Réponse : ~84893551~

@@ -1,0 +1,48 @@
+--- Jour 13 : Le dispositif à pinces ---
+Prochaine étape : le hall d'un complexe hôtelier sur une île tropicale. Les historiens prennent un moment pour admirer les carreaux hexagonaux du sol avant de se disperser.
+
+Heureusement, il semble que le complexe dispose d'une nouvelle salle d'arcade ! Peut-être pourrez-vous gagner des prix grâce aux machines à pinces ?
+
+Les machines à pinces ici sont un peu inhabituelles. Au lieu d'un joystick ou de boutons directionnels pour contrôler la pince, ces machines ont deux boutons étiquetés A et B. Pire encore, vous ne pouvez pas simplement mettre un jeton et jouer ; il en coûte 3 jetons pour appuyer sur le bouton A et 1 jeton pour appuyer sur le bouton B.
+
+Avec un peu d'expérimentation, vous découvrez que les boutons de chaque machine sont configurés pour déplacer la pince d'une quantité spécifique vers la droite (le long de l'axe X) et d'une quantité spécifique vers l'avant (le long de l'axe Y) à chaque fois que ce bouton est enfoncé.
+
+Chaque machine contient un prix ; pour gagner le prix, la pince doit être positionnée exactement au-dessus du prix sur les axes X et Y.
+
+Vous vous demandez : quel est le plus petit nombre de jetons que vous devriez dépenser pour gagner le plus de prix possible ? Vous établissez une liste du comportement des boutons de chaque machine et de l'emplacement des prix (votre entrée de puzzle). Par exemple :
+
+Bouton A : X+94, Y+34
+Bouton B : X+22, Y+67
+Prix : X=8400, Y=5400
+
+Bouton A : X+26, Y+66
+Bouton B : X+67, Y+21
+Prix : X=12748, Y=12176
+
+Bouton A : X+17, Y+86
+Bouton B : X+84, Y+37
+Prix : X=7870, Y=6450
+
+Bouton A : X+69, Y+23
+Bouton B : X+27, Y+71
+Prix : X=18641, Y=10279
+Cette liste décrit la configuration des boutons et l'emplacement des prix de quatre machines à pinces différentes.
+
+Pour l'instant, considérons simplement la première machine à pinces de la liste :
+
+Appuyer sur le bouton A de la machine déplacerait la pince de 94 unités le long de l'axe X et de 34 unités le long de l'axe Y.
+Appuyer sur le bouton B déplacerait la pince de 22 unités le long de l'axe X et de 67 unités le long de l'axe Y.
+Le prix est situé à X=8400, Y=5400 ; cela signifie qu'à partir de la position initiale de la pince, elle devrait se déplacer exactement de 8400 unités le long de l'axe X et exactement de 5400 unités le long de l'axe Y pour être parfaitement alignée avec le prix dans cette machine.
+Le moyen le moins cher de gagner le prix est d'appuyer 80 fois sur le bouton A et 40 fois sur le bouton B. Cela alignerait la pince le long de l'axe X (car 80*94 + 40*22 = 8400) et le long de l'axe Y (car 80*34 + 40*67 = 5400). Cela coûterait 80*3 jetons pour les pressions sur A et 40*1 pour les pressions sur B, soit un total de 280 jetons.
+
+Pour les deuxième et quatrième machines à pinces, aucune combinaison de pressions sur A et B ne permettra de gagner un prix.
+
+Pour la troisième machine à pinces, le moyen le plus économique de gagner le prix est d'appuyer 38 fois sur le bouton A et 86 fois sur le bouton B. Cela coûterait un total de 200 jetons.
+
+Ainsi, le plus grand nombre de prix que vous pourriez éventuellement gagner est de deux ; le nombre minimum de jetons que vous auriez à dépenser pour gagner tous les (deux) prix est de 480.
+
+Vous estimez que chaque bouton ne devrait pas être pressé plus de 100 fois pour gagner un prix. Comment quelqu'un pourrait-il jouer autrement ?
+
+Découvrez comment gagner autant de prix que possible. Quel est le nombre minimum de jetons que vous auriez à dépenser pour gagner tous les prix possibles ?
+
+Réponse :

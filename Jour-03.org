@@ -36,4 +36,4 @@ Cette fois, la somme des résultats est de 48 (2*4 + 8*5).
 
 Gérez les nouvelles instructions ; qu'obtenez-vous si vous additionnez tous les résultats des seules multiplications activées ?
 
-Réponse : ~84893551~
+* Réponse : ~84893551~

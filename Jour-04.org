@@ -36,7 +36,7 @@ S.S.S.S.SS
 .X.X.XMASX
 Regardez la recherche de mots du petit lutin. Combien de fois XMAS apparaît-il ?
 
-* Réponse : ~2297~
+** Réponse : ~2297~
 
 * Deuxième partie 
 L'elfe vous regarde d'un air interrogateur. Avez-vous mal compris la tâche ?
@@ -64,4 +64,4 @@ Dans cet exemple, un X-MAS apparaît 9 fois.
 
 Retournez la recherche de mots des instructions sur le côté recherche de mots et réessayez. Combien de fois un X-MAS apparaît-il ?
 
-* Réponse : ~1745~
+** Réponse : ~1745~

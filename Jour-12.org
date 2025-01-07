@@ -1,0 +1,80 @@
+--- Jour 12 : Groupes de jardinage ---
+Pourquoi ne pas chercher l'historien en chef près du jardinier et de son immense ferme ? Il y a beaucoup de nourriture, alors les historiens prennent quelque chose à manger pendant qu'ils cherchent.
+
+Vous êtes sur le point de vous installer près d'un ensemble complexe de parcelles de jardin lorsque des elfes vous demandent si vous pouvez leur donner un coup de main. Ils aimeraient installer des clôtures autour de chaque région de parcelles de jardin, mais ils ne savent pas combien de clôtures ils doivent commander ni combien cela coûtera. Ils vous remettent une carte (votre contribution au puzzle) des parcelles de jardin.
+
+Chaque parcelle de jardin ne fait pousser qu'un seul type de plante et est indiquée par une seule lettre sur votre carte. Lorsque plusieurs parcelles de jardin font pousser le même type de plante et se touchent (horizontalement ou verticalement), elles forment une région. Par exemple :
+
+AAAA
+BBCD
+BBCC
+EEEC
+Cet arrangement 4x4 comprend des parcelles de jardin où poussent cinq types de plantes différents (étiquetés A, B, C, D et E), chacune regroupée dans sa propre région.
+
+Afin de calculer avec précision le coût de la clôture autour d'une seule région, vous devez connaître la superficie et le périmètre de cette région.
+
+La superficie d'une région est simplement le nombre de parcelles de jardin que contient la région. Les plantes de type A, B et C de la carte ci-dessus se trouvent chacune dans une région de superficie 4. Les plantes de type E se trouvent dans une région de superficie 3 ; les plantes de type D se trouvent dans une région de superficie 1.
+
+Chaque parcelle de jardin est un carré et possède donc quatre côtés. Le périmètre d'une région est le nombre de côtés des parcelles de jardin de la région qui ne touchent pas une autre parcelle de jardin de la même région. Les plantes de type A et C se trouvent chacune dans une région de périmètre 10. Les plantes de type B et E se trouvent chacune dans une région de périmètre 8. La parcelle D isolée forme sa propre région de périmètre 4.
+
+En indiquant visuellement les côtés des parcelles de chaque région qui contribuent au périmètre à l'aide de - et |, les périmètres des régions de la carte ci-dessus sont mesurés comme suit :
+
++-+-+-+-+
+|A A A A| +-+-+-+-+ +-+
+|D|
++-+-+ +-+ +-+
+|B B| |C|
++ + + +-+
+|B B| |C C|
++-+-+ +-+ +
+|C|
++-+-+-+ +-+
+|E E E|
++-+-+-+
+Les plantes du même type peuvent apparaître dans plusieurs régions distinctes, et des régions peuvent même apparaître dans d'autres régions. Par exemple :
+
+OOOOO
+OXOXO
+OOOOO
+OXOXO
+OOOOO
+La carte ci-dessus contient cinq régions, l'une contenant toutes les parcelles de jardin O, et les quatre autres contenant chacune une seule parcelle X.
+
+Les quatre régions X ont chacune une surface de 1 et un périmètre de 4. La région contenant 21 plantes de type O est plus compliquée ; en plus de son bord extérieur contribuant à un périmètre de 20, sa limite avec chaque région X contribue à un périmètre supplémentaire de 4, pour un périmètre total de 36.
+
+En raison des pratiques commerciales « modernes », le prix de la clôture requise pour une région est calculé en multipliant la superficie de cette région par son périmètre. Le prix total de la clôture de toutes les régions sur une carte est calculé en additionnant le prix de la clôture pour chaque région sur la carte.
+
+Dans le premier exemple, la région A a un prix de 4 * 10 = 40, la région B a un prix de 4 * 8 = 32, la région C a un prix de 4 * 10 = 40, la région D a un prix de 1 * 4 = 4 et la région E a un prix de 3 * 8 = 24. Ainsi, le prix total pour le premier exemple est de 140.
+
+Dans le deuxième exemple, la région avec toutes les plantes O a un prix de 21 * 36 = 756, et chacune des quatre plus petites régions X a un prix de 1 * 4 = 4, pour un prix total de 772 (756 + 4 + 4 + 4 + 4).
+
+Voici un exemple plus grand :
+
+RRRRIICCFF
+RRRRIICCCF
+VVRRRCCFFF
+VVRCCCJFFF
+VVVVCJJCFE
+VVIVCCJJEE
+VVIIICJJEE
+MIIIIIJJEE
+MIIISIJEEE
+MMMISSJEEE
+Il contient :
+
+Une région de R plantes avec un prix de 12 * 18 = 216.
+Une région de I plantes avec un prix de 4 * 8 = 32.
+Une région de C plantes avec un prix de 14 * 28 = 392.
+Une région de F plantes avec un prix de 10 * 18 = 180.
+Une région de V plantes avec un prix de 13 * 20 = 260.
+Une région de J plantes avec un prix de 11 * 20 = 220.
+Une région de C plantes avec un prix de 1 * 4 = 4.
+Une région de E plantes avec un prix de 13 * 18 = 234.
+Une région de I plantes avec un prix de 14 * 22 = 308.
+Une région de M plantes avec un prix de 5 * 12 = 60.
+Une région de S plantes avec un prix de 3 * 8 = 24.
+Ainsi, son prix total est de 1930.
+
+Quel est le prix total de la clôture de toutes les régions sur votre carte ?
+
+Réponse : 

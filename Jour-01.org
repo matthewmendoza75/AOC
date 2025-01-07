@@ -1,4 +1,4 @@
---- Jour 1 : Hystérie de l'historien ---
+* Jour 1 : Hystérie de l'historien
 L'historien en chef est toujours présent pour le grand lancement du traîneau de Noël, mais personne ne l'a vu depuis des mois ! La dernière fois que quelqu'un a entendu parler de lui, il visitait des lieux historiquement importants pour le pôle Nord ; un groupe d'historiens seniors vous a demandé de les accompagner pendant qu'ils vérifient les endroits qu'ils pensent qu'il était le plus susceptible de visiter.
 
 A chaque fois qu'ils vérifient un lieu, ils le marquent sur leur liste d'une étoile. Ils pensent que l'historien en chef doit être dans l'un des cinquante premiers endroits qu'ils vont regarder, donc pour sauver Noël, vous devez les aider à obtenir cinquante étoiles sur leur liste avant le départ du Père Noël le 25 décembre.
@@ -37,9 +37,9 @@ Pour trouver la distance totale entre la liste de gauche et la liste de droite, 
 
 Vos listes de gauche et de droite contiennent de nombreux identifiants d'emplacement. Quelle est la distance totale entre vos listes ?
 
-Réponse: 1970720
+** Réponse: 1970720
 
--- Deuxième partie ---
+* Deuxième partie
 Votre analyse n'a fait que confirmer ce que tout le monde craignait : les deux listes d'identifiants de lieux sont en effet très différentes.
 
 Ou le sont-elles ?
@@ -68,6 +68,6 @@ Ainsi, pour ces exemples de listes, le score de similarité à la fin de ce proc
 
 Considérez à nouveau vos listes de gauche et de droite. Quel est leur score de similarité ?
 
-Réponse: 17191599
+** Réponse: 17191599
 
 

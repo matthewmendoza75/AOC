@@ -1,0 +1,54 @@
+--- Jour 11 : Galets plutoniens ---
+L'ancienne civilisation de Pluton était connue pour sa capacité à manipuler l'espace-temps, et tandis que les historiens explorent leurs couloirs infinis, vous avez remarqué un étrange ensemble de pierres défiant les lois de la physique.
+
+À première vue, elles ressemblent à des pierres normales : elles sont disposées en ligne parfaitement droite, et chaque pierre porte un numéro gravé dessus.
+
+Ce qui est étrange, c'est qu'à chaque fois que vous clignez des yeux, les pierres changent.
+
+Parfois, le numéro gravé sur une pierre change. D'autres fois, une pierre peut se diviser en deux, ce qui fait que toutes les autres pierres se décalent un peu pour faire de la place dans leur ligne parfaitement droite.
+
+En les observant pendant un moment, vous constatez que les pierres ont un comportement cohérent. À chaque fois que vous clignez des yeux, les pierres changent simultanément selon la première règle applicable de cette liste :
+
+Si la pierre est gravée du chiffre 0, elle est remplacée par une pierre gravée du chiffre 1.
+Si la pierre est gravée d'un numéro comportant un nombre pair de chiffres, elle est remplacée par deux pierres. La moitié gauche des chiffres est gravée sur la nouvelle pierre de gauche, et la moitié droite des chiffres est gravée sur la nouvelle pierre de droite. (Les nouveaux nombres ne conservent pas de zéros supplémentaires en tête : 1000 deviendrait les pierres 10 et 0.)
+Si aucune des autres règles ne s'applique, la pierre est remplacée par une nouvelle pierre ; le numéro de l'ancienne pierre multiplié par 2024 est gravé sur la nouvelle pierre.
+Peu importe la façon dont les pierres changent, leur ordre est conservé et elles restent sur leur ligne parfaitement droite.
+
+Comment les pierres évolueront-elles si vous continuez à cligner des yeux devant elles ? Vous prenez note du numéro gravé sur chaque pierre de la ligne (votre entrée de puzzle).
+
+Si vous avez un arrangement de cinq pierres gravées avec les chiffres 0 1 10 99 999 et que vous clignez des yeux une fois, les pierres se transforment comme suit :
+
+La première pierre, 0, devient une pierre marquée 1.
+La deuxième pierre, 1, est multipliée par 2024 pour devenir 2024.
+La troisième pierre, 10, est divisée en une pierre marquée 1 suivie d'une pierre marquée 0.
+La quatrième pierre, 99, est divisée en deux pierres marquées 9.
+La cinquième pierre, 999, est remplacée par une pierre marquée 2021976.
+Ainsi, après avoir cligné des yeux une fois, vos cinq pierres deviendraient un arrangement de sept pierres gravées avec les chiffres 1 2024 1 0 9 9 2021976.
+
+Voici un exemple plus long :
+
+Disposition initiale :
+125 17
+
+Après 1 clignement :
+253000 1 7
+
+Après 2 clignotements :
+253 0 2024 14168
+
+Après 3 clignotements :
+512072 1 20 24 28676032
+
+Après 4 clignotements :
+512 72 2024 2 0 2 4 2867 6032
+
+Après 5 clignotements :
+1036288 7 2 20 24 4048 1 4048 8096 28 67 60 32
+
+Après 6 clignotements :
+2097446912 14168 4048 2 0 2 4 40 48 2024 40 48 80 96 2 8 6 7 6 0 3 2
+Dans cet exemple, après avoir cligné six fois, vous auriez 22 calculs. Après avoir cligné des yeux 25 fois, vous auriez 55312 calculs !
+
+Considérez la disposition des calculs devant vous. Combien de calculs aurez-vous après avoir cligné des yeux 25 fois ?
+
+Réponse : 

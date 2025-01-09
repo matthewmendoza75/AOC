@@ -1,4 +1,5 @@
---- Jour 13 : Le dispositif à pinces ---
+* Jour 13 : Le dispositif à pinces
+** Première Partie
 Prochaine étape : le hall d'un complexe hôtelier sur une île tropicale. Les historiens prennent un moment pour admirer les carreaux hexagonaux du sol avant de se disperser.
 
 Heureusement, il semble que le complexe dispose d'une nouvelle salle d'arcade ! Peut-être pourrez-vous gagner des prix grâce aux machines à pinces ?
@@ -45,9 +46,9 @@ Vous estimez que chaque bouton ne devrait pas être pressé plus de 100 fois pou
 
 Découvrez comment gagner autant de prix que possible. Quel est le nombre minimum de jetons que vous auriez à dépenser pour gagner tous les prix possibles ?
 
-Réponse : 33209
+*** Réponse : ~33209~
 
---- Deuxième partie ---
+** Deuxième partie
 Alors que vous êtes sur le point de remporter le premier prix, vous découvrez que la griffe est loin d'être là où vous l'espériez. En raison d'une erreur de conversion d'unité dans vos mesures, la position de chaque prix est en réalité 10000000000000 plus haute sur les axes X et Y !
 
 Ajoutez 100000000000000 à la position X et Y de chaque prix. Après avoir effectué cette modification, l'exemple ci-dessus ressemblerait désormais à ceci :
@@ -71,4 +72,4 @@ Maintenant, il n'est possible de gagner un prix que sur les deuxième et quatri�
 
 À l'aide des coordonnées de prix corrigées, déterminez comment gagner autant de prix que possible. Quel est le nombre minimum de jetons que vous auriez à dépenser pour gagner tous les prix possibles ?
 
-Réponse : 83102355665474
+*** Réponse : ~83102355665474~

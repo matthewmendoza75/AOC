@@ -1,4 +1,5 @@
 * Jour 5 : File d'attente d'impression
+** Première Partie
 Satisfait de sa recherche sur Cérès, l'escadron d'érudits suggère de scanner ensuite les piles de papeterie du sous-sol 17.
 
 Le service d'impression du pôle Nord est plus occupé que jamais à l'approche de Noël, et tandis que les historiens continuent leur recherche de cette installation historiquement importante, un elfe qui utilise une imprimante très familière vous fait signe.
@@ -73,9 +74,9 @@ Bien sûr, vous devrez faire attention : la liste réelle des règles d'ordre d
 
 Déterminez quelles mises à jour sont déjà dans le bon ordre. Qu'obtenez-vous si vous additionnez le numéro de page du milieu de ces mises à jour correctement ordonnées ?
 
-** Réponse : ~4689~
+*** Réponse : ~4689~
 
-* Deuxième partie
+** Deuxième partie
 Pendant que les elfes se mettent au travail pour imprimer les mises à jour correctement ordonnées, vous avez un peu de temps pour corriger le reste.
 
 Pour chacune des mises à jour mal ordonnées, utilisez les règles d'ordre des pages pour mettre les numéros de page dans le bon ordre. Pour l'exemple ci-dessus, voici les trois mises à jour mal ordonnées et leur ordre correct :
@@ -87,4 +88,4 @@ Après avoir pris uniquement les mises à jour mal ordonnées et les avoir ordon
 
 Trouvez les mises à jour qui ne sont pas dans le bon ordre. Qu'obtenez-vous si vous additionnez les numéros de page du milieu après avoir correctement commandé uniquement ces mises à jour ?
 
-** Réponse : ~6336~
+*** Réponse : ~6336~

@@ -1,4 +1,5 @@
 * Jour 8 : Colinéarité résonnante
+** Première Partie
 Vous vous trouvez sur le toit d'une installation top-secrète de lapins de Pâques.
 
 Pendant que les historiens font leur travail, vous jetez un œil à l'énorme antenne familière. À votre grande surprise, elle semble avoir été reconfigurée pour émettre un signal qui augmente de 0,1 % la probabilité que les gens achètent du chocolat médiocre d'imitation de marque Easter Bunny comme cadeau de Noël ! Impensable !
@@ -73,9 +74,9 @@ Le premier exemple comporte des antennes avec deux fréquences différentes, don
 
 Calculez l'impact du signal. Combien d'emplacements uniques dans les limites de la carte contiennent un antinœud ?
 
-** Réponse : ~313~
+*** Réponse : ~313~
 
-* Deuxième partie 
+** Deuxième partie 
 En regardant par-dessus votre épaule pendant que vous travaillez, l'un des historiens vous demande si vous avez pris en compte les effets des harmoniques résonnantes dans vos calculs.
 
 Oups !
@@ -111,4 +112,4 @@ L'exemple original comporte désormais 34 antinœuds, y compris les antinœuds q
 ...#......##
 Calculez l'impact du signal à l'aide de ce modèle mis à jour. Combien d'emplacements uniques dans les limites de la carte contiennent un antinœud ?
 
-** Réponse : ~1064~
+*** Réponse : ~1064~

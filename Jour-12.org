@@ -78,9 +78,9 @@ Ainsi, son prix total est de 1930.
 
 Quel est le prix total de la clôture de toutes les régions sur votre carte ?
 
-** Réponse : ~1489582~
+*** Réponse : ~1489582~
 
-* Deuxième partie 
+** Deuxième partie 
 Heureusement, les elfes essaient de commander tellement de clôtures qu'ils ont droit à une remise sur les lots !
 
 Avec la remise sur les lots, au lieu d'utiliser le périmètre pour calculer le prix, vous devez utiliser le nombre de côtés de chaque région. Chaque section droite de clôture compte comme un côté, quelle que soit sa longueur.
@@ -133,4 +133,4 @@ En additionnant ces éléments, on obtient son nouveau prix total de 1206.
 
 Quel est le nouveau prix total de la clôture de toutes les régions de votre carte ?
 
-** Réponse : ~914966~
+*** Réponse : ~914966~

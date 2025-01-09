@@ -1,4 +1,5 @@
 * Jour 6 : Garde Gallivant
+** Première Partie
 Les historiens utilisent à nouveau leur appareil sophistiqué, cette fois pour vous emmener tous au laboratoire de fabrication du prototype de combinaison du pôle Nord... en l'an 1518 ! Il s'avère qu'avoir un accès direct à l'histoire est très pratique pour un groupe d'historiens.
 
 Vous devez toujours faire attention aux paradoxes temporels, et il sera donc important d'éviter toute personne de 1518 pendant que les historiens recherchent le chef. Malheureusement, un seul garde patrouille dans cette partie du laboratoire.
@@ -87,9 +88,9 @@ Dans cet exemple, le garde visitera 41 positions distinctes sur votre carte.
 
 Prédisez le chemin du garde. Combien de positions distinctes le garde visitera-t-il avant de quitter la zone cartographiée ?
 
-** Réponse : ~4964~
+*** Réponse : ~4964~
 
-* Deuxième partie 
+** Deuxième partie 
 Pendant que les historiens commencent à travailler autour de l'itinéraire de patrouille du garde, vous empruntez leur appareil sophistiqué et sortez du laboratoire. Depuis la sécurité d'un placard de fournitures, vous voyagez dans le temps à travers les derniers mois et enregistrez l'état nocturne du poste de garde du laboratoire sur les murs du placard.
 
 De retour après ce qui semble n'être que quelques secondes, les historiens expliquent que la zone de patrouille du garde est tout simplement trop grande pour qu'ils puissent fouiller le laboratoire en toute sécurité sans se faire prendre.
@@ -176,5 +177,5 @@ Peu importe ce que vous choisissez d'utiliser comme obstacle tant que vous et le
 
 Vous devez bloquer le garde dans une boucle en ajoutant une seule nouvelle obstruction. Combien de positions différentes pourriez-vous choisir pour cette obstruction ?
 
-** Réponse : ~1740~
+*** Réponse : ~1740~
 
